@@ -144,11 +144,16 @@ p {
 
 .left {
     flex: 1;
+    margin-top: 40px;
 }
 
 .right {
     max-width: 390px;
+    margin-top: 40px;
+    position: relative;
 }
+
+/* lexend giga typo starts here */
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Lexend Giga', sans-serif;
@@ -193,10 +198,6 @@ p {
     color: black;
 }
 
-.typo-cont > ul {
-    margin-top: 40px;
-}
-
 .typo-cont > ul > li {
     margin-bottom: 30px;
 }
@@ -231,6 +232,104 @@ p {
 .head-text {
     line-height: 80px;
 }
+
+.text-detail-cont {
+    margin-bottom: 50px;
+}
+
+.text-detail > ul > li {
+    display: block;
+}
+
+.color-chip:first-child {
+    background-color: #14455a;
+}
+
+.color-chip:nth-child(2) {
+    background-color: #000000;
+}
+
+.color-chip:last-child {
+    background-color: #50514F;
+    margin-right: 0;
+}
+
+.color-chip {
+    display: block;
+    width:105px; height: 225px; 
+    margin-right: 10px;  
+    position: relative;
+
+}
+
+.color-chip > p{
+    width: 95%;
+    font-family: 'Lexend Giga', sans-serif;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%; margin-left: -47.5%;    
+}
+
+.flex-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-detail-txt {
+    justify-content: space-between;
+}
+
+.text-detail-txt > li {
+    margin-top: 30px;
+}
+
+.txt-ex-l {
+    font-family: 'Lexend Giga', sans-serif; 
+}
+
+.txt-ex-400 {
+    font-weight: 400;
+}
+
+.txt-ex-500 {
+    font-weight: 500;
+}
+
+.leading-cont {
+    position: absolute;
+    bottom: 30px;
+}
+
+.leading-cont > ul > li > p {
+    width: 120px; height: 60px;
+    font-family: 'Lexend Giga', sans-serif; 
+    font-size: 18px;
+    margin: 0; padding-top: 25px;
+    line-height: 35px;
+    /* vertical-align: bottom; */
+    box-sizing: border-box;
+}
+
+.leading-cont > ul > li > span {
+    font-size: 48px;
+    color: #14455A;
+}
+
+/* lexend giga typo ends here */
+
+/* montserrat typo starts here */
+.montserrat {
+    font-family: montserrat;
+}
+
+
 
 
 
