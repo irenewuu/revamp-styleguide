@@ -149,7 +149,7 @@ p {
 }
 
 .left {
-    flex: 1;
+    flex-grow: 1;
     margin-top: 40px;    
 }
 
@@ -162,8 +162,9 @@ p {
     position: relative;
 }
 
-/* lexend giga typo starts here */
+/* LEXEND GIGA TYPO STARTS HERE */
 
+/* LEXEND GIGA - LEFT BOX STARTS */
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Lexend Giga', sans-serif;
     font-weight: 400;
@@ -244,8 +245,11 @@ p {
 
 .head-text {
     line-height: 80px;
-}
+}/*left box ends here*/
 
+
+/* LEXEND GIGA - RIGHT BOX STARTS */
+/* color chip starts */
 .text-detail-cont {
     margin-bottom: 50px;
 }
@@ -285,16 +289,7 @@ p {
     left: 50%; margin-left: -47.5%;    
 }
 
-.flex-end {
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.flex-start {
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
+/* font example starts */
 .text-detail-txt {
     justify-content: space-between;
 }
@@ -311,6 +306,7 @@ p {
     font-weight: 400;
 }
 
+/* leading & tracking starts */
 .leading-cont {
     position: absolute;
     bottom: 30px;
@@ -340,7 +336,9 @@ p {
     color: #14455A;
 }/* lexend giga typo ends here */
 
-/* montserrat typo starts here */
+
+/* MONTSERRAT TYPO STARTS HERE */
+/* MONTSERRAT - LEFT BOX STARTS */
 .montserrat {
     font-family: montserrat;
 }
@@ -390,8 +388,8 @@ p {
     color: #247BA0;
 }
 
-/* color chip */
-
+/* MONTSERRAT - RIGHT BOX STARTS */
+/* color chip starts*/
 .color-chip-m:first-child {    
     background-color: #000000;
 }
@@ -404,9 +402,6 @@ p {
     background-color: #247BA0;
     margin-right: 0;
 }
-
-
-
 
 
 /* ===========================================================
