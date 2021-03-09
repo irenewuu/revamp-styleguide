@@ -91,34 +91,149 @@ h1, h2, h3, h4, h5, h6, li {
 
 h1 {
     font-size: 48px;
+    line-height: 72px;
     color: #14455a;
 }
 h2 {
     font-size: 32px;
+    line-height: 48px;
     color: #000000;
 }
 h3 {
     font-size: 26px;
+    line-height: 39px;
     color: #000000;
 }
 h4 {
     font-size: 22px;
+    line-height: 33px;
     color: #50514f;
 }
 h5 {
     font-size: 20px;
+    line-height: 30px;
     color: #50514f;
 }
 h6, a {
     font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    line-height: 24px;
     color: black;
 }
+
+/* ===========================================================
+        typography
+=========================================================== */
+.typo-cont{
+    width: 100%; min-height: 130px;
+}
+
+.typo-cont > h1, h2{
+    text-align: center;
+}
+
+.typo-cont > h2{
+    margin-top: 40px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    max-width: 390px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 400;
+}
+
+.h1 {
+    font-size: 48px;
+    line-height: 72px;
+    color: #14455a;
+}
+.h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+.h3 {
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+}
+.h4 {
+    font-size: 22px;
+    line-height: 33px;
+    color: #50514f;
+}
+.h5 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #50514f;
+}
+.h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #50514f;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.typo-cont > ul {
+    margin-top: 40px;
+}
+
+.typo-cont > ul > li {
+    margin-bottom: 30px;
+}
+
+.color-box {
+    width: 40px; height: 85px;
+    margin-right: 10px;
+}
+
+.color-text {
+    font-size: 24px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.color-text:first-child {
+    margin-bottom: 33px;
+}
+
+.color-h1 {
+    background-color: #14455a;
+}
+
+.color-h2 {
+    background-color: #000;
+}
+
+.color-h4 {
+    background-color: #50514f;
+}
+
+.head-text {
+    line-height: 80px;
+}
+
+
+
 
 /* ===========================================================
         media query
