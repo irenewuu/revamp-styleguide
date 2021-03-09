@@ -13,9 +13,9 @@ html, body {
     margin: 0 auto;
     border-radius: 15px;
     width: 80vw;
-
     /* margin: 50px 100px; */
     padding: 30px 50px;
+    margin-bottom: 50px;
     word-wrap: break-word;
 }
 .container > h1 {
@@ -130,8 +130,14 @@ p {
 /* ===========================================================
         typography
 =========================================================== */
+.typo-container{
+    width: 100%; 
+    margin-bottom: 0;
+}
+
 .typo-cont{
     width: 100%; min-height: 130px;
+    margin-bottom: 40px;
 }
 
 .typo-cont > h1, h2{
@@ -144,12 +150,15 @@ p {
 
 .left {
     flex: 1;
-    margin-top: 40px;
+    margin-top: 40px;    
 }
 
 .right {
-    max-width: 390px;
+    max-width: 360px;
+    min-width: 360px;
+    min-height: 700px;
     margin-top: 40px;
+    margin-bottom: 0;
     position: relative;
 }
 
@@ -202,6 +211,10 @@ p {
     margin-bottom: 30px;
 }
 
+.typo-cont > ul > li:last-child{
+    margin: 0;
+}
+
 .color-box {
     width: 40px; height: 85px;
     margin-right: 10px;
@@ -239,6 +252,7 @@ p {
 
 .text-detail > ul > li {
     display: block;
+    font-size: 16px;
 }
 
 .color-chip:first-child {
@@ -259,7 +273,6 @@ p {
     width:105px; height: 225px; 
     margin-right: 10px;  
     position: relative;
-
 }
 
 .color-chip > p{
@@ -298,13 +311,17 @@ p {
     font-weight: 400;
 }
 
-.txt-ex-500 {
-    font-weight: 500;
-}
-
 .leading-cont {
     position: absolute;
     bottom: 30px;
+}
+
+.leading-cont > ul > li {
+    margin: 20px 0;
+}
+
+.leading-cont > ul > li:last-child{
+    margin-bottom: 0;
 }
 
 .leading-cont > ul > li > p {
@@ -313,6 +330,7 @@ p {
     font-size: 18px;
     margin: 0; padding-top: 25px;
     line-height: 35px;
+    color: #50514F;
     /* vertical-align: bottom; */
     box-sizing: border-box;
 }
@@ -320,15 +338,72 @@ p {
 .leading-cont > ul > li > span {
     font-size: 48px;
     color: #14455A;
-}
-
-/* lexend giga typo ends here */
+}/* lexend giga typo ends here */
 
 /* montserrat typo starts here */
 .montserrat {
     font-family: montserrat;
 }
 
+.txt-ex-500 {
+    font-weight: 500;
+}
+
+.typo-cont-m {
+    margin-bottom: 0;
+}
+
+.typo-cont-m > div > ul > li {
+    margin-bottom: 45px
+}
+
+.typo-cont-m > div > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.txt-ex-m {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-w {
+    width: 100px;
+}
+
+.color-p {
+    background-color: #000;
+}
+
+.color-a {
+    background-color: #50514F;
+}
+
+.color-act {
+    background-color: #247BA0;
+}
+
+.p-underline {
+    text-decoration: underline;
+    color: #50514F;
+}
+
+.p-action  {
+    color: #247BA0;
+}
+
+/* color chip */
+
+.color-chip-m:first-child {    
+    background-color: #000000;
+}
+
+.color-chip-m:nth-child(2) {    
+    background-color: #50514F;
+}
+
+.color-chip-m:last-child {
+    background-color: #247BA0;
+    margin-right: 0;
+}
 
 
 
