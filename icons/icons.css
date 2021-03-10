@@ -141,31 +141,29 @@ p {
 .icons {
     display: flex;
     flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 145px;
+    justify-content: space-between;
 }
 
 .icons_text {
     flex-direction: column;
     margin: 20px;
     text-align: center;
+    align-self: flex-end;
 }
 
 .icon_images {
     width: 193px;
-    height: 141px;
+    height: 100px;
 }
 
-
-#location_text{
-    text-align: center;
-}
 
 .colors_icons{
     display: flex;
     justify-content: flex-end;
-    flex:1;
     margin-left: 40px;
+    height: 145px;
+    align-self: flex-end;
 }
 
 .light_blue_info{
@@ -173,29 +171,21 @@ p {
 }
 
 .color_blocks{
-    margin-bottom: 100px;
-}
-
-#play_buttons{
-    margin-left: 30px;
+    justify-content: flex-end;
 }
 
 .color_info{
     margin-left: 15px;
 }
 
-.color_platte_icons{
-    justify-content: flex-end;
+.icon-section{
+    margin-bottom: 100px;
 }
 
-.mid_icons{
-    display: flex;
-    justify-content: flex-start;
+#yellow{
+    padding-top: 50px;
 }
 
-.blue_menu_color{
-    margin: 0;
-}
 
 /* ===========================================================
         imagery
@@ -224,4 +214,3 @@ p {
 .small_layouts{
     padding: 10px;
 }
-

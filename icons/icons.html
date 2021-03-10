@@ -37,9 +37,11 @@
                         When hovered, icon color changes to yellow</p>
             </div>
 
-            <div>
-                <!-- this is the top row of icons shown -->
-                <div class="icons">
+             <!-- this is the top row of icons shown -->
+
+            <div class="flex-column flex icon-section">
+
+                <div class="icons flex-row">
 
                     <div class="icons_text">
                         <img class="icon_images" src="../images/beginner.svg">
@@ -52,7 +54,7 @@
                     </div>
 
                     <div class="icons_text">
-                        <img class="icons_images" id="play_buttons" src="../images/previous.svg">
+                        <img class="icons_images" src="../images/previous.svg">
                         <p>previous</p>
                     </div>
 
@@ -67,67 +69,57 @@
                     </div>
 
 
-                    <!-- this is where I added the side color palettes -->
+                <!-- this is the where the light color blue palette is -->
 
 
-                    <div class="color_platte_icons">
+                    <div class="colors_icons">
 
-                        <div class="colors_icons">
-
-                            <div class="color_blocks">
-                                <img src="../images/blue.svg">
-                            </div>
-
-                            <div>
-                                <h3 class="color_info">icon</h3>
-                                    <p class="light_blue_info">#CCE6F4<br>
-                                    r 166, g196, b138</p>
-                            </div>
-
+                        <div class="color_blocks">
+                            <img src="../images/blue.svg">
                         </div>
     
-                        <div class="colors_icons">
-
-                            <div class="color_blocks">
-                                <img src="../images/yellow.svg">
-                            </div>
-        
-                            <div>
-                                <h3 class="color_info">visited</h3>
-                                    <p class="color_info">#FFE066<br>
-                                    r 255, g224, b102</p>
-                            </div>
-
+                        <div>
+                            <h3 class="color_info">icon</h3>
+                                <p class="light_blue_info">#CCE6F4<br>
+                                r 166, g196, b138</p>
                         </div>
-
-                        <div class="colors_icons">
-
-                            <div class="blue_menu_color">
-                                <img src="../images/darkblue.svg">
-                            </div>
     
-                            <div>
-                                <h3 class="color_info">menu</h3>
-                                    <p class="color_info">#FFE066<br>
-                                        r 255, g224, b102</p>
-                            </div>
+                    </div>
+                </div>
 
-                        </div> 
-                    
+
+                <!-- this is the where the yellow color palette is -->
+
+
+                <div id="yellow">
+                <div class="colors_icons">
+
+                    <div class="color_blocks">
+                        <img src="../images/yellow.svg">
                     </div>
 
-                       <!-- this is the mid row of icons shown -->
-                    
+                    <div>
+                        <h3 class="color_info">visited</h3>
+                            <p class="color_info">#FFE066<br>
+                            r 255, g224, b102</p>
+                    </div>
 
-                <div class="mid_icons">
+                </div>
+            </div>
+
+            <!-- this is the sedond line of icons -->
+
+
+                <div class="icons flex-row">
+                   
                     <div class="icons_text">
                         <img class="icon_images" src="../images/map.svg">
                         <p>map</p>
                     </div>
 
                     <div class="icons_text">
-                        <img id="location" src="../images/location.svg">
-                        <p id="location_text">location</p>
+                        <img src="../images/location.svg">
+                        <p>location</p>
                     </div>
 
                     <div class="icons_text">
@@ -135,20 +127,31 @@
                         <p>youtube</p>
                     </div>
 
-                </div>
-
-                <div class="final_icon">
                     <div class="icons_text">
                         <img class="icons_images" src="../images/menu.svg">
                         <p>menu</p>
                     </div>
+                    
+                <!-- this is the where the darker blue color palette is -->
+
+                    <div class="colors_icons">
+
+                        <div class="color_blocks">
+                            <img src="../images/darkblue.svg">
+                        </div>
+
+                        <div>
+                            <h3 class="color_info">menu</h3>
+                                <p class="color_info">#FFE066<br>
+                                    r 255, g224, b102</p>
+                        </div>
+
+                    </div> 
+    
                 </div>
 
-                </div>
+
             </div>
-
-            <br>
-            <br>
 
             <!-- this is the imagery section of the style guide-->
 
@@ -178,12 +181,15 @@
                     </div>
 
                     <div class="big-img">
+
                         <div>
                         <img src="../images/racks.svg">
                         </div>
+
                         <div>
                         <img src="../images/wowfashion.svg">
                         </div>
+
                     </div>
             
                 </div>
