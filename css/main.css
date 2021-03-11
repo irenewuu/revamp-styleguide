@@ -10,6 +10,8 @@ html, body {
 .container { /*this is the white div container*/
     background-color: white;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto;
     border-radius: 15px;
     width: 80vw;
@@ -34,6 +36,14 @@ html, body {
     justify-content: space-between;
     align-items: center;
 }
+
+#homeImgLogo {
+    width: 408px; 
+    height: 372.43px;
+    padding: 30px;
+}
+
+
 
 /* =============================
     flex stuff
@@ -115,8 +125,8 @@ h6, a {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 18px;
     color: black;
 }
 
