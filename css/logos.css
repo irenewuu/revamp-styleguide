@@ -1,0 +1,37 @@
+.logoVariations > div {
+    margin: 10px;
+}
+.logoVariations > div > img {
+    margin: 10px 0;
+    height: 180px;
+}
+@media only screen and (min-width: 1300px) {
+    .logoVariations > div > img {
+        height: 230px;
+    }
+}
+.logoVariations {
+    justify-content: center;
+    margin: 20px 0 70px 0;
+}
+
+.usages {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 70px 0;
+}
+.usages > img {
+    margin: 15px 20px;
+}
+
+.donts {
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.donts > div {
+    margin: 10px 30px;
+    justify-content: center;
+    text-align: center;
+}
