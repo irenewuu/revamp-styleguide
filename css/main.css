@@ -10,7 +10,7 @@
 .container { /*this is the white div container*/
     background-color: white;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     margin: 0 auto;
     border-radius: 15px;
@@ -41,6 +41,7 @@
 ============================= */
 #homeImgLogo {
     padding: 30px;
+    width: 400px;
 }
 
 #homeDescript {
@@ -48,6 +49,9 @@
     margin-bottom: 50px;
 }
 
+.centeraligned {
+    align-items: center;
+}
 /* =============================
     flex stuff
 ============================= */

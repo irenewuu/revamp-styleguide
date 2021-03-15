@@ -69,8 +69,13 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 12px 20px;
     text-decoration: none;
+}
+a > h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
 }
 li a:hover {
     background-color: #134459;
@@ -91,33 +96,39 @@ h1, h2, h3, h4, h5, h6, li {
 
 h1 {
     font-size: 48px;
+    line-height: 72px;
     color: #14455a;
 }
 h2 {
     font-size: 32px;
+    line-height: 48px;
     color: #000000;
 }
 h3 {
     font-size: 26px;
+    line-height: 39px;
     color: #000000;
 }
 h4 {
     font-size: 22px;
+    line-height: 33px;
     color: #50514f;
 }
 h5 {
     font-size: 20px;
+    line-height: 30px;
     color: #50514f;
 }
 h6, a {
     font-size: 16px;
-    color: #ffffff;
+    line-height: 24px;
+    color: #50514F;
 }
-
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
+    word-wrap: break-word;
 }
 
 /* ===========================================================
