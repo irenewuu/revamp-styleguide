@@ -1,4 +1,4 @@
-html, body {
+ html, body {
     margin: 0;
     justify-content: center;
     background-color: #cce6f4;
@@ -10,6 +10,8 @@ html, body {
 .container { /*this is the white div container*/
     background-color: white;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto;
     border-radius: 15px;
     width: 80vw;
@@ -34,6 +36,9 @@ html, body {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
 
 /* =============================
     flex stuff
@@ -115,105 +120,7 @@ h5 {
     color: #50514f;
 }
 h6, a {
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-}
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: black;
-}
-
-/* ===========================================================
-        typography
-=========================================================== */
-.typo-container{
-    width: 100%; 
-    margin-bottom: 0;
-}
-
-.typo-cont{
-    width: 100%; min-height: 130px;
-    margin-bottom: 40px;
-}
-
-.typo-cont > h1, h2{
-    text-align: center;
-}
-
-.typo-cont > h2{
-    margin-top: 40px;
-}
-
-.left {
-    flex-grow: 1;
-    margin-top: 40px;    
-}
-
-.right {
-    max-width: 360px;
-    min-width: 360px;
-    min-height: 700px;
-    margin: 40px 0 0 20px;  
-    box-sizing: border-box; 
-    position: relative;
-}
-
-/* LEXEND GIGA TYPO STARTS HERE */
-
-/* LEXEND GIGA - LEFT BOX STARTS */
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Lexend Giga', sans-serif;
-    font-weight: 400;
-}
-
-.h1 {
-    font-size: 48px;
-    line-height: 72px;
-    color: #14455a;
-    word-wrap: break-word;
-}
-.h2 {
-    font-size: 32px;
-    line-height: 48px;
-    color: #000000;
-    word-wrap: break-word;
-}
-.h3 {
-    font-size: 26px;
-    line-height: 39px;
-    color: #000000;
-    word-wrap: break-word;
-}
-.h4 {
-    font-size: 22px;
-    line-height: 33px;
-    color: #50514f;
-    word-wrap: break-word;
-}
-.h5 {
-    font-size: 20px;
-    line-height: 30px;
-    color: #50514f;
-    word-wrap: break-word;
-}
-.h6 {
-    font-size: 16px;
-    line-height: 24px;
-    color: #50514f;
-    word-wrap: break-word;
-}
-
-.p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: black;
-    word-wrap: break-word;
-}
 
 .typo-cont > ul > li {
     margin-bottom: 30px;
