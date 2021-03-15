@@ -1,0 +1,30 @@
+.descript {
+    margin: 20px 0 50px 0;
+}
+
+.imgPrimary {
+    width:699px;
+    height: 274px;
+    margin-left: 50px;
+}
+
+.imgSecondary {
+    width:283px;
+    height: 274px;
+    margin-left: 50px;
+}
+
+
+.divSection {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.colourDescription {
+   margin: 40px 20px;
+}
+
+.spacing {
+    margin-bottom: 50px;
+}
