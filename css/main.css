@@ -1,4 +1,4 @@
-html, body {
+ html, body {
     margin: 0;
     justify-content: center;
     background-color: #cce6f4;
@@ -37,11 +37,6 @@ html, body {
     align-items: center;
 }
 
-#homeImgLogo {
-    width: 408px; 
-    height: 372.43px;
-    padding: 30px;
-}
 
 
 
@@ -120,8 +115,8 @@ h5 {
     color: #50514f;
 }
 h6, a {
-    font-size: 16px;
-    color: #ffffff;
+    font-size: 18px;
+    color: #000000;
 }
 
 p {
