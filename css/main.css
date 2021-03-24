@@ -176,8 +176,8 @@ h6, a {
 }
 
 .right {
-    max-width: 360px;
-    min-width: 360px;
+    max-width: 380px;
+    min-width: 380px;
     min-height: 700px;
     margin: 40px 0 0 20px;  
     box-sizing: border-box; 
@@ -258,13 +258,15 @@ p {
 }
 
 .color-text {
+    text-align: left;
     font-size: 24px;
     margin: 0;
     margin-right: 20px;
 }
 
 .color-text:first-child {
-    margin-bottom: 33px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
 }
 
 .color-h1 {
@@ -281,6 +283,7 @@ p {
 
 .head-text {
     line-height: 80px;
+    text-align: left;
 }/*left box ends here*/
 
 
@@ -400,7 +403,7 @@ p {
 }
 
 .col-w {
-    width: 100px;
+    width: 100px; height: 80px;
 }
 
 .color-p {
