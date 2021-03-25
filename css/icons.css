@@ -167,7 +167,6 @@ p {
     height: 100px;
 }
 
-
 .colors_icons{
     display: flex;
     justify-content: flex-end;
@@ -194,6 +193,19 @@ p {
 
 #yellow{
     padding-top: 50px;
+}
+
+#yellow-block{
+    margin-right: 42px;
+}
+
+#light-blue-block {
+        margin-right: 42px;
+}
+
+.advanced-image {
+    width: 220px;
+    height: 120px;
 }
 
 
